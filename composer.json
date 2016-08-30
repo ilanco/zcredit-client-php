@@ -1,0 +1,22 @@
+{
+    "name": "ilanco/zcredit-client-php",
+    "description": "ZCredit Client for PHP",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ilan Cohen",
+            "email": "ilanco@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/ZCreditProxy.php"
+        ]
+    },
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
