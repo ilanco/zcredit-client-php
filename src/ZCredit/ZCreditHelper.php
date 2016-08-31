@@ -2,6 +2,8 @@
 
 namespace ZCredit;
 
+use Exception;
+
 class ZCreditHelper
 {
     public static function Pay($TerminalNumber, $UserName, $PaymentSum, $PaymentsNumber,
