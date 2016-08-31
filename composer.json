@@ -9,9 +9,9 @@
         }
     ],
     "autoload": {
-        "files": [
-            "src/ZCreditProxy.php"
-        ]
+        "psr-4": {
+            "": "src/"
+        }
     },
     "require": {
         "php": ">=5.4"
