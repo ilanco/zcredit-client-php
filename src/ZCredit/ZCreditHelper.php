@@ -3,6 +3,7 @@
 namespace ZCredit;
 
 use Exception;
+use ZCredit\Exceptions\ZCreditException;
 
 class ZCreditHelper
 {
